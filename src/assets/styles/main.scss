@@ -1,5 +1,5 @@
 @import './variables.scss';
-@import './core/header.scss';
+@import './components/index.scss';
 
 html {
   scroll-behavior: smooth;
@@ -10,12 +10,21 @@ body {
   min-width: 375px;
   font-family: 'Gilroy', Arial, Helvetica, sans-serif;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-gray-100);
 }
 
 .w-container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  word-break: break-word;
 }
 
 h1 {
@@ -30,13 +39,10 @@ h2 {
   line-height: 24px;
 }
 
-.text {
-  font-size: 16px;
-  line-height: 24px;
-  &-time {
-    font-family: 'Kantumruy', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-  }
+.time {
+  font-family: 'Kantumruy', Arial, Helvetica, sans-serif;
+}
+
+.timer-button {
+  color: var(--color-main);
 }
