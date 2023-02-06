@@ -1,0 +1,83 @@
+.tasks {
+  padding: 16px;
+  width: 100%;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .container__title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .container__subtitle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--color-gray-80);
+      margin-bottom: 8px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 8px;
+    transition: var(--transition-default);
+
+    &:active,
+    &:hover {
+      background: var(--color-gray-20);
+    }
+
+    &__title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+  }
+
+  .sort {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    color: var(--color-main);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    svg {
+      color: var(--color-main);
+    }
+  }
+
+  .input {
+    justify-content: flex-start;
+
+    &__container {
+      padding-left: 36px;
+    }
+
+    svg {
+      top: 6px;
+      color: var(--color-gray-80);
+    }
+  }
+}
