@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import logo from '../icons/logo.vue'
 import archive from '../icons/archive.vue'
 import arrowDown from '../icons/arrow-down.vue'
 import arrowUp from '../icons/arrow-up.vue'
@@ -13,7 +12,9 @@ import close from '../icons/close.vue'
 import done from '../icons/done.vue'
 import folderPlus from '../icons/folder-plus.vue'
 import folder from '../icons/folder.vue'
+import logo from '../icons/logo.vue'
 import play from '../icons/play.vue'
+import plus from '../icons/plus.vue'
 import sorting from '../icons/sorting.vue'
 import stopIcon from '../icons/stop.vue'
 import trash from '../icons/trash.vue'
@@ -21,7 +22,6 @@ import trash from '../icons/trash.vue'
 export default {
   name: 'VIcon',
   components: {
-    logo,
     archive,
     arrowDown,
     arrowUp,
@@ -31,7 +31,9 @@ export default {
     done,
     folderPlus,
     folder,
+    logo,
     play,
+    plus,
     sorting,
     stopIcon,
     trash
