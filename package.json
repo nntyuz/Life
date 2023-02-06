@@ -9,15 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "nanoid": "^4.0.0",
     "pinia": "^2.0.30",
     "sass": "^1.58.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
     "@prettier/plugin-pug": "^2.3.0",
     "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.22.0",
