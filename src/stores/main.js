@@ -79,6 +79,12 @@ export const useMainStore = defineStore('main', {
     completeTask(id) {
       const task = this.tasks.find((a) => a.id === id)
       task.completed = !task.completed
+    },
+    initTasks(tasks) {
+      this.tasks = tasks
+    },
+    initFolders(folders) {
+      this.folders = folders
     }
   }
 })
