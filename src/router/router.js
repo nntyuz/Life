@@ -4,7 +4,7 @@ import Home from '../App.vue'
 import Tasks from '../components/home/tasks.vue'
 
 const routes = [
-  { name: 'home', path: '/folder', component: Home },
+  { name: 'home', path: '/', redirect: '/folder/main', component: Home },
   { name: 'tasks', path: '/folder/:id', component: Tasks }
 ]
 
