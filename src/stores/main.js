@@ -24,7 +24,10 @@ export const useMainStore = defineStore('main', {
     },
     removeFolder(id) {
       if (this.currentTask?.folderId === id) this.currentTask = null
-      if (this.runningTask?.folderId === id) this.runningTask = null
+      if (this.runningTask?.folderId === id) {
+        this.pauseTimer()
+        this.runningTask = null
+      }
       this.tasks = this.tasks.filter((a) => a.folderId !== id)
       this.folders = this.folders.filter((a) => a.id !== id)
     },
@@ -33,7 +36,10 @@ export const useMainStore = defineStore('main', {
     },
     removeTask(id) {
       if (this.currentTask?.id === id) this.currentTask = null
-      if (this.runningTask?.id === id) this.runningTask = null
+      if (this.runningTask?.id === id) {
+        this.pauseTimer()
+        this.runningTask = null
+      }
       this.tasks = this.tasks.filter((a) => a.id !== id)
     },
     addCurrentTask(id) {
