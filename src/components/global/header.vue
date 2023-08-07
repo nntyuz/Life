@@ -1,7 +1,8 @@
 <template>
   <header class="header">
-    <router-link to="/folder/main">
-      <VIcon class="logo" name="logo" />
+    <router-link to="/folder/main" class="logo time">
+      <vIcon name="arrow-up" />
+      Todo Project
     </router-link>
     <div class="header__container">
       <div class="header__container-title">

@@ -12,7 +12,6 @@ import close from '../icons/close.vue'
 import done from '../icons/done.vue'
 import folderPlus from '../icons/folder-plus.vue'
 import folder from '../icons/folder.vue'
-import logo from '../icons/logo.vue'
 import play from '../icons/play.vue'
 import plus from '../icons/plus.vue'
 import sorting from '../icons/sorting.vue'
@@ -31,7 +30,6 @@ export default {
     done,
     folderPlus,
     folder,
-    logo,
     play,
     plus,
     sorting,
