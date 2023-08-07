@@ -1,8 +1,0 @@
-{
-  "extends": ["stylelint-config-rational-order", "stylelint-config-prettier"],
-  "ignoreFiles": ["./src/assets/styles/reset.css"],
-  "plugins": ["stylelint-order"],
-  "rules": {
-    "at-rule-no-unknown": [true, { "ignoreAtRules": ["mixin", "define-mixin"] }]
-  }
-}
