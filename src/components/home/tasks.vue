@@ -45,7 +45,7 @@
       </div>
     </div>
     <div v-if="tasks.length === 0" class="tasks__img">
-      <img src="../../../img/blank.png" alt="Blank Screen Illustration" />
+      <img src="/img/blank.png" alt="Blank Screen Illustration" />
     </div>
   </section>
 </template>

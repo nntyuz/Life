@@ -43,7 +43,7 @@
         <h2>Откройте задачу, на которую планируете трекать время</h2>
       </div>
       <div class="track__img">
-        <img src="../../../img/task.png" alt="No open task image" />
+        <img src="/img/task.png" alt="No open task image" />
       </div>
     </template>
   </section>
