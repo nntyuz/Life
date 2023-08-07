@@ -170,7 +170,7 @@ html {
   content: "";
   width: 21px;
   height: 11px;
-  background-image: url(./img/polygon.svg);
+  background-image: url(../img/polygon.svg);
 }
 .task-popup {
   position: absolute;
@@ -216,7 +216,7 @@ html {
   content: "";
   width: 21px;
   height: 11px;
-  background-image: url(./img/polygon.svg);
+  background-image: url(../img/polygon.svg);
 }
 .folders {
   background: var(--color-gray-20);
