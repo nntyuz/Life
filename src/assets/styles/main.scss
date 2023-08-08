@@ -25,6 +25,10 @@ body {
   display: flex;
   min-height: 100vh;
   word-break: break-word;
+  &__img {
+    margin: 20px auto;
+    max-height: 345px;
+  }
 }
 
 h1 {

@@ -2,7 +2,15 @@
   <HeaderComponent />
   <section class="content">
     <FolderComponent />
-    <router-view />
+    <template v-if="$route.name === 'home'">
+      <div class="tasks">
+        <h1>Откройте папку с задачами или создайте новую</h1>
+        <img src="/img/blank.png" alt="Blank Screen Illustration" class="content__img" />
+      </div>
+    </template>
+    <template v-else>
+      <router-view />
+    </template>
     <TrackComponent v-if="$route.name === 'tasks'" />
   </section>
 </template>
@@ -25,7 +33,6 @@ export default {
   mounted() {
     const store = useMainStore()
     init(store)
-    // const store = useMainStore()
     window.addEventListener('beforeunload', (e) => {
       e.preventDefault()
       saveToLocalStorage(store)
