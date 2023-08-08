@@ -3,10 +3,9 @@
   font-family: Kantumruy;
   font-style: normal;
   src: url("/fonts/kantumruy-regular.woff2") format("woff2"),
-    url("./fonts/kantumruy-regular.woff") format("woff");
+    url("/fonts/kantumruy-regular.woff") format("woff");
   font-display: swap;
 }
-
 @font-face {
   font-weight: 400;
   font-family: Gilroy;
@@ -15,7 +14,6 @@
     url("/fonts/gilroy-regular.woff") format("woff");
   font-display: swap;
 }
-
 @font-face {
   font-weight: 500;
   font-family: Gilroy;

@@ -97,8 +97,8 @@ html {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: var(--color-main);
+  gap: 5px;
+  color: var(--color-gray-100);
 }
 .header__container {
   position: relative;
@@ -492,6 +492,10 @@ body {
   display: flex;
   min-height: 100vh;
   word-break: break-word;
+}
+.content__img {
+  margin: 20px auto;
+  max-height: 345px;
 }
 h1 {
   font-weight: 500;
