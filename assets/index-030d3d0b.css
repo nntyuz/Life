@@ -1,27 +1,3 @@
-@font-face {
-  font-weight: 400;
-  font-family: Kantumruy;
-  font-style: normal;
-  src: url(/fonts/kantumruy-regular.woff2) format("woff2"),
-    url(/fonts/kantumruy-regular.woff) format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-weight: 400;
-  font-family: Gilroy;
-  font-style: normal;
-  src: url(/fonts/gilroy-regular.woff2) format("woff2"),
-    url(/fonts/gilroy-regular.woff) format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-weight: 500;
-  font-family: Gilroy;
-  font-style: normal;
-  src: url(/fonts/gilroy-medium.woff2) format("woff2"),
-    url(/fonts/gilroy-medium.woff) format("woff");
-  font-display: swap;
-}
 .icon-component {
   display: block;
 }
